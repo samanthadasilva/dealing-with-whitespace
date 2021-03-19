@@ -30,18 +30,15 @@ article {
   border-bottom-width: 2px;
   border-bottom-style: solid;
   border-bottom-color: #999;
-  line-height: 1.5;
+  line-height: 1.3;
 }
 
 blockquote {
   color: #999;
   font-size: 1.125rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
-ol li {
-  padding-left: -2rem;
-}
 
 /*font-family: 'Crimson Text', serif;
