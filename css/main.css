@@ -16,7 +16,6 @@ article {
   font-weight: normal;
   padding-left: 1em;
   padding-right: 1em;
-  font-size:
 }
 
 article h1 {
@@ -44,7 +43,11 @@ article header p {
 article p {
   font-family: "Crimson Text", serif;
   color: #222;
-  padding-top: .5rem;
+  padding-top: .175rem;
+}
+
+p:nth-child(6) {
+  padding-top: 1rem;
 }
 
 article ol {
@@ -52,8 +55,12 @@ article ol {
 }
 
 blockquote {
-  padding-left: .5em;
-  padding-right: .5em;
+  padding-left: .125em;
+  padding-right: .125em;
   color: #555;
   font-size: 1.125rem;
+}
+
+.quote {
+  color: #555;
 }
